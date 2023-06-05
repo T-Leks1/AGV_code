@@ -202,7 +202,7 @@ int stappen_aantal_r (int y)
 {
     MotorR(50,y);
 }
-
+ //dit is een testregel
 
 int graden_draaien (int l,int r)
 {
@@ -228,6 +228,7 @@ int vooruit_rijden(void)
 int main(void)
 {
     init();
+    calibreren(); //calibreren van de waggie
 
 
 
